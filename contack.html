@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contack</title>
+</head>
+<body>
+    <h3>Let Ostric Know Who You Are</h3>
+<hr>
+    <form action="mailto:dalih03praja@upi.edu" method="POST" enctype="text/plain">
+        <label for="name">*Nama </label>
+        <input type="text" name="nama" placeholder="Enter Your Name">
+        <p>
+            <label>*Email </label>
+            <input type="email" name="email" placeholder="Enter Your Email" />
+        </p>
+        <p>
+            <label>*Age </label>
+            <input type="number" name="uage" placeholder="Age" />
+        </p>
+        <p>
+            <label>Role </label>
+            <select name="Role">
+                <option value="Learner">Learner</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Profesional">Profesional</option>
+                <option value="Common">Common</option>
+            </select>
+        </p>
+        <p>
+            <label>Ostric Generation</label><br>
+            <label><input type="radio" name="Ostric Generation" value="2018" /> 2018</label><br>
+            <label><input type="radio" name="Ostric Generation" value="2019" /> 2019</label><br>
+            <label><input type="radio" name="Ostric Generation" value="Other" /> Other</label>
+        </p>
+                <p>
+            <label>Interested</label><br>
+            <label><input type="checkbox" name="Interested" value="Front-end" /> Front-end</label><br>
+            <label><input type="checkbox" name="Interested" value="Back-end" /> Back-end</label><br>
+            <label><input type="checkbox" name="Interested" value="Data Visualization" /> Data Visualization</label>
+        </p>
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
